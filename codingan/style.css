@@ -1,0 +1,39 @@
+/* Jika ukuran layar 680px atau kurang dari itu */
+
+@media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
+
+#header {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: sans-serif;
+    background-color: gray;
+    padding: 10px;
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+#footer {
+    background-color: #fff1;
+    padding: 2px;
+}
